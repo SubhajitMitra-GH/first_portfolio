@@ -1,4 +1,4 @@
-@mediascreen and (min-width:1200px) and (min-height:700px){
+@mediascreen and (max-width:1199px) and (max-height:599px){
     body{
         display:none;
     }
