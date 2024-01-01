@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    font-weight: 900;
+    margin:0;
+    padding:0;
+}
+html{
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar{
+    width: 0px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #888;
+}
+::-webkit-scrollbar-track{
+    background-color:rgb(251, 255, 22);
+}
+
+body{
+   font-family: 'Poppins', sans-serif;
+   /* background-image: linear-gradient(to left, rgb(251, 255, 22) 50%, rgb(255, 22, 22) 50%); */
+   overflow-x: hidden;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: #36A9E7;                                                                                              
+}
+#nav-list,#name{
+    display:flex;
+    list-style: none;
+    gap:2rem;
+    height:15vh;
+    align-items: center; 
+    font-size: larger;
+}
+#nav-list{
+    cursor:pointer;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color:rgb(110, 106, 101);
+    text-decoration: underline;
+    text-underline-offset: 0.5rem;
+    transition: all 300ms ease;
+}
+#name{
+    font-size: xx-large;
+    cursor:default;
+}     
+#info-section{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    height: 75vh;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap:2.52rem;
+}
+.image-container{
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap:6rem;
+    padding-right: 35px;
+}
+img{
+    display: flex;
+    padding-left: 35px;
+    height: 400px;  
+    width: 400px;
+}
+button{
+    font-weight: 600;
+    transition: all 300ms ease;
+    padding: 1rem;
+    width:8rem;
+    border-radius: 1rem;
+    /* gap:5rem; */
+    margin: 2px;
+    border: hidden;
+}
+h2,h4{
+    cursor: default;
+}
+.paragraph>p{
+    font-size: x-large;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+}
+.btn0{
+    display:flex ;
+    justify-content:first baseline;
+    margin-top: 40px;
+}
+.btn-2{
+    margin: 2px;
+    background-color:#36A9E7;
+    color:black;
+   
+}
+.btn-2:hover{
+   font-size:medium;
+   cursor: pointer;
+}
+.btn-1:hover{
+    background-color: black;
+    color:white;
+}
+/* .text-container{
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(204, 208, 213);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 9px;
+    margin-right:25px;
+    border-radius: 5px; 
+    box-shadow: 8px 8px 20px blue;
+} */
+#education{
+    height:  64.37125748502994vh;
+    background-color: aliceblue;
+    margin: 25px;
+    border-radius: 30px;
+    display: flex;
+    overflow: auto; 
+}
+.srm-photo{
+    display:flex;
+    height: 64.37125748502994vh;
+    align-items: center;
+}                                                                                   
+.img2{
+    min-height: 400px;
+    min-width:400px;
+    border-radius: 30px;
+}
+.edu-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 20px;
+}
+.first-ul{
+    list-style: none;
+}
+.list{
+    list-style:none;
+
+}
+#about{
+
+    height: 64.37125748502994vh;
+    display: flex;
+}
+.tech-skills{
+    height: 64.37125748502994vh;
+    /* background-color: aliceblue; */
+    margin-top: 60px;
+    margin: 25px;
+    width:100%;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+}
+/* .soft-skills{
+    height: 64.37125748502994vh;
+    margin-top: 60px;
+    margin: 25px;
+    width:731px;
+    border-radius: 30px;
+    text-align: center;
+    overflow: hidden; 
+} */
+.text{
+    display: flex;
+    width:716px;
+    justify-content:center ;
+}                                   
+.heading{
+    width: 13%;
+    color: #36A9E7;
+    font-weight: 900;
+    padding-top: 5px;  
+    margin-left:15px;
+    text-align: center;
+    font-size: large;
+    transition: all 300ms ease;
+}
+.heading:hover{
+    color: rgb(40, 124, 143);
+}
+.branches{
+    width:716px;
+    height:469.65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:2.5rem;
+}
+.logo{
+    align-items: center;
+    text-align: center;
+    width:100%;
+    border: 2px black solid;
+    border-radius: 6px;
+    margin: 10px;
+    margin-left:0px;
+    margin-right:0px;
+    padding:5px;
+    transition: all 300ms ease;  
+}
+.logo:hover{
+    background-color: gray;
+    padding: 7px;
+}
+.soft-skills>img{
+    height: fit-content;
+    width: fit-content;
+}
+#contact{
+    height: 150px;
+    background-color:#36A9E7;
+    margin-top: 150px;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+}
+.socials{
+    display:flex;
+    gap: 3rem;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+}
+.soc{
+    display: flex;
+    padding: 7px;
+    justify-content: center;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 50%;
+    border: hidden;
+}
+.soc:hover{
+    background-color: rgb(56, 100, 100);
+    transition: all 300ms ease-in-out; 
+    cursor: pointer; 
+}
+.email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:0.5rem;
+    border:3px solid white;
+    border-radius: 20px;
+    padding: 6.5px;
+    transition: all 300ms ease-in-out;  
+}   
+.email>h4{
+    color:aliceblue;
+    padding-left: 4px;
+    border-left: 2px solid white;
+}
+.email:hover{
+    background-color: rgb(56, 100, 100);
+    cursor:pointer;
+}
+footer p{
+    text-align:center;
+    background-color:#36A9E7;
+}
+/* .txt-btn{
+    display: flex;
+    flex-direction: column;
+} */
+.para-sub-2 p{
+    margin-left: 4px;
+    display: flex;
+    text-align: justify;
+}
+.text2{
+    display: flex;
+    justify-content: center;
+}
+.heading2{
+    color: #36A9E7;
+    font-weight: 900;
+    font-size: large;
+    transition: all 300ms ease;
+
+}
+.heading2:hover{
+    color: rgb(40, 124, 143);
+}
