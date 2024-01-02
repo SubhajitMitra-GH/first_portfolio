@@ -227,7 +227,6 @@ h2,h4{
 }
 .logo:hover{
     background-color: gray;
-    padding: 7px;
 }
 .soft-skills>img{
     height: fit-content;
