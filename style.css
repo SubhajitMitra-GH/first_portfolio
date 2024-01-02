@@ -25,7 +25,9 @@ body{
 nav{
     display: flex;
     justify-content: space-around;
-    background-color: #36A9E7;                                                                                              
+    background-color: #36A9E7;  
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;                                                                                            
 }
 #nav-list,#name{
     display:flex;
@@ -100,13 +102,14 @@ h2,h4{
     margin-top: 40px;
 }
 .btn-2{
+    font-size: medium;
     margin: 2px;
     background-color:#36A9E7;
     color:black;
    
 }
 .btn-2:hover{
-   font-size:medium;
+   font-size:small;
    cursor: pointer;
 }
 .btn-1:hover{
