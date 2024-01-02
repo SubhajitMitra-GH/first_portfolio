@@ -109,8 +109,8 @@ h2,h4{
    
 }
 .btn-2:hover{
-   font-size:small;
    cursor: pointer;
+   background-color: #257fb0;
 }
 .btn-1:hover{
     background-color: black;
@@ -308,5 +308,3 @@ footer p{
 .heading2:hover{
     color: rgb(40, 124, 143);
 }
-/* git config --global useor.email "you@example.com"
-git config --global user.name "Your Name" config */
